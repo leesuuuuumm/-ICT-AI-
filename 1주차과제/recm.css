@@ -1,1 +1,29 @@
 
+/* 폰트는 하나로 통일하기 -> 배달의 민족 폰트 가져오기
+
+호버에 툴팁
+링크 이벤트를 넣기!!!
+폰드 스타일 한번에 바꾸는 법이 있음
+
+*/
+
+.navbar {
+  display: flex;
+  background-color: #476564;
+}
+
+.l_menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.l_menu li {
+  padding: 8px 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #dae0e0;
+}
