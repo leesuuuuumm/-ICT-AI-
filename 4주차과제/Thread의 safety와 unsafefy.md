@@ -95,7 +95,7 @@ class Unsafetythread extends Thread {
 
 ![image](https://github.com/leesuuuuumm/Seoul-ICT-AI-Web-Dev-Camp/assets/58407737/b32f78b2-3185-4823-ac02-887fff9aeff6) </br>
 
-thd1에서 age를 2로 바꾸기 전 thd2에서 age를 1로 읽어가버리기 때문에 3이 되었어야할 것이 th1과 동일하게 2가 되어버렸다. </br>
+thr1에서 age를 2로 바꾸기 전 thr2에서 age를 1로 읽어가버리기 때문에 3이 되었어야 할 것이 thr1과 동일하게 2가 되어버렸다. </br>
 
 `unsafety`한 결과를 `safety`하게 보장하길 원한다면 plus 메소드에 `Synchronized`만 추가해주면 된다. </br>
 
