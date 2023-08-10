@@ -69,3 +69,61 @@ Server: Apache
 5. Connection 헤더는 홉별 헤더였다. (특정 두 서버에만 영향을 끼치는 경우)
 6. 문제가 발생 -> 서로 소통 되지 않아, 브라우저는 무한정 대기 하다 TimeOut이 나서 Connection이 끊기게 된다.
 
+</br></br>
+</br></br>
+
+# 2. JSON 파일에 대해 간략히 알아보고 Python으로 json 파일을 Read, write 할 수 있는 코드 제출하기 (json 파일에 대한 스터디 자료도 제출)
+
+### JSON 이란?
+JavaScript Object Notation의 약자로 Javascript 객체 문법을 따르는 문자기반의 데이터 포맷이다. </br>
+
+Javascript가 아니더라도 다수의 프로그래밍 환경에서 JSON을 읽고 쓸 수 있다. </br>
+
+</br>
+
+#### 구조
+JSON 안에는 문자열, 숫자, 배열, 불리언 그리고 다른 객체를 포함할 수 있다.  </br>
+
+```
+{
+  "squadName": "Super hero squad",
+  "homeTown": "Metro City",
+  "formed": 2016,
+  "secretBase": "Super tower",
+  "active": true,
+  "members": [
+    {
+      "name": "Molecule Man",
+      "age": 29,
+      "secretIdentity": "Dan Jukes",
+      "powers": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+    },
+    {
+      "name": "Madame Uppercut",
+      "age": 39,
+      "secretIdentity": "Jane Wilson",
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    }
+]
+}
+```
+
+![image](https://github.com/leesuuuuumm/Seoul-ICT-AI-Web-Dev-Camp/assets/58407737/afa4b178-2956-4b45-bdf2-42db55e68b9d)
+- 전에 OpenApi 이용했을때 얻었던 json 결과
+
+</br>
+</br>
+
+### Python에서 Read, write 해보기
+
+1. 내장 모듈 선언
+
+``` import json ```
+
+</br>
+
+2. with oepn(): json.dump() 를 사용해서 JSON 포맷 데이터 읽기
