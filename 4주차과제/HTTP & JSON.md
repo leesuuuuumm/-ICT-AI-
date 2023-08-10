@@ -126,4 +126,17 @@ JSON 안에는 문자열, 숫자, 배열, 불리언 그리고 다른 객체를 �
 
 </br>
 
-2. with oepn(): json.dump() 를 사용해서 JSON 포맷 데이터 읽기
+2. with open(): json.dump() 를 사용해서 JSON  데이터 쓰기
+```
+with open(파일 경로, 'w', encoding='utf-8') as file:
+    json.dump(json 파일, file)
+```
+</br>
+
+3. with open(): json.load() 를 사용해서 JSON 파일 읽기
+```
+with open(파일 경로, 'r') as file:
+    data = json.load(file)
+    print(원하는 데이터 값) // 데이터 출력해보기
+    
+```
