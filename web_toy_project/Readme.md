@@ -7,4 +7,4 @@
 </br> </br>
 
 ## DB ERD 
-![RecBook](https://github.com/leesuuuuumm/Seoul-ICT-AI-Web-Dev-Camp/assets/58407737/52a96007-f0be-4cf1-b794-b12118d3babf)
+![RecBook](https://github.com/leesuuuuumm/Seoul-ICT-AI-Web-Dev-Camp/assets/58407737/97c58e20-afc4-41c6-b2b9-1c02f37f0817)
